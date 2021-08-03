@@ -39,10 +39,15 @@ With this code you can communicate with BT806 via UART to read most of the devic
 Repository Contents
 -------------------
 
-* **/Codes** - ONLY_READ_STATUS.ino and READ_ALL.ino. Run by Arduino IDE. 
+ONLY_READ_STATUS.ino to translate the ASCII to understandable status
+
+READ_ALL.ino. to real all the incoming ASCII
+
+Run by Arduino IDE. 
 
 
 Guide
 -------------------
 
 Please refer to the datasheet to locate TX,RX pins 13,14 on (Development Board) (DB102-BT806)
+Make sure the baud rate 115200
