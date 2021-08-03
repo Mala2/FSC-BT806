@@ -3,8 +3,12 @@ This is a code for BT806 "Bluetooth 5.0 CSR8675" from feasycom that you can find
 
 
 [![FSC-BT806 Feasycom](https://www.feasycom.net/uploads/201813049/small/bluetooth-5-0-csr8675-aptx-audio-module-fsc34572430494.jpg)](https://www.feasycom.net/dual-mode-bluetooth-module/bluetooth-5-0-csr8675-aptx-audio-module-fsc.html)
+
 [*FSC-BT806 Feasycom*](https://www.feasycom.net/dual-mode-bluetooth-module/bluetooth-5-0-csr8675-aptx-audio-module-fsc.html)
+
+
 [![FSC-BT806 Feasycom](https://www.feasycom.net/uploads/202013049/small/audio-bluetooth-module-csr8675-development25165022888.jpg)](https://www.feasycom.net/bluetooth-development-board/bluetooth-audio-development-board/audio-bluetooth-module-csr8675-development.html)
+
 [*FSC-BT806 Feasycom (Development Board) (DB102-BT806)*](https://www.feasycom.net/bluetooth-development-board/bluetooth-audio-development-board/audio-bluetooth-module-csr8675-development.html)
 
 With this code you can communicate with BT806 to read most of the device status:
@@ -31,5 +35,10 @@ With this code you can communicate with BT806 to read most of the device status:
 
 -Get the HFPDEV-HFP Device Info Roaming status
 
-Take a look to the ONLY_READ_STATUS.h and READ_ALL.h files to see all available functions! Enjoy!
+
+Repository Contents
+-------------------
+
+* **/Codes** - ONLY_READ_STATUS.ino and READ_ALL.ino. Run by Arduino IDE. 
+
 
