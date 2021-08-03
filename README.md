@@ -11,7 +11,7 @@ This is a code for BT806 "Bluetooth 5.0 CSR8675" from feasycom that you can find
 
 [*FSC-BT806 Feasycom (Development Board) (DB102-BT806)*](https://www.feasycom.net/bluetooth-development-board/bluetooth-audio-development-board/audio-bluetooth-module-csr8675-development.html)
 
-With this code you can communicate with BT806 to read most of the device status:
+With this code you can communicate with BT806 via UART to read most of the device status:
 
 -Enable and disable LED,13 upon playing/paused
 
@@ -42,4 +42,7 @@ Repository Contents
 * **/Codes** - ONLY_READ_STATUS.ino and READ_ALL.ino. Run by Arduino IDE. 
 
 
+Guide
+-------------------
 
+Please refer to the datasheet to locate TX,RX pins 13,14 on (Development Board) (DB102-BT806)
