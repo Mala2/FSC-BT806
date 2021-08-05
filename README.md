@@ -39,9 +39,9 @@ With this code you can communicate with BT806 via UART to read most of the devic
 Repository Contents
 -------------------
 
-ONLY_READ_STATUS.ino to translate the ASCII to understandable status
+ONLY_READ_STATUS.ino to translate the ASCII (Commands) to understandable status
 
-READ_ALL.ino. to real all the incoming ASCII
+READ_ALL.ino. to read all the incoming ASCII (Commands)
 
 Run by Arduino IDE. 
 
