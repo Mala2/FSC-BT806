@@ -13,7 +13,7 @@ This is a code for BT806 "Bluetooth 5.0 CSR8675" from feasycom that you can find
 
 With this code you can communicate with BT806 via UART to read most of the device status:
 
--Enable and disable LED,13 upon playing/paused
+-Enable and disable LED,13 upon Playing/Paused
 
 -Get the GATTSTAT status
 
