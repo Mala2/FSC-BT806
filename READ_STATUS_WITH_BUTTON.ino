@@ -52,17 +52,12 @@ void loop()
       if (strstr(command,"+PLAYSTAT=1")!=NULL) {
       Serial.println("PLAY");
       digitalWrite(ledPin, HIGH);
-      
+      }
       else if (strstr(command,"+PLAYSTAT=2")!=NULL) {
       Serial.println("PAUSED");
       digitalWrite(ledPin, LOW);
       }
-  
-      else if (strstr(command,"+PLAYSTAT=2")!=NULL) {
-      Serial.println("PAUSED");
-      digitalWrite(ledPin, LOW);
-      }
-      
+ 
 
       
 ///GATTSTAT
